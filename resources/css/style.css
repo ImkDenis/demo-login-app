@@ -43,10 +43,12 @@ img {
 
 .login-section {
   margin-top: 120px;
+  padding-top: 90px;
 }
 
 .register-section {
   margin-top: 20px;
+  padding-top: 50px;
 }
 
 .home-section {
@@ -83,9 +85,47 @@ img {
   }
 }
 
-@media (max-width:800px) {
-  .row {
-    background-color: red;
+@media (max-width:1366px) {
+  .container {
+    padding-bottom: 100px;
+    width: 200%;
+    height: auto;
+  }
+
+  .register-section {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+  }
+
+  .login-section {
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 90px;
+  }
+
+  .form-row {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media (max-width:800) {
+
+  .login-section {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
   }
 
 }
